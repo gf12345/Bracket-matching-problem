@@ -2,7 +2,7 @@
 #include<stdbool.h>
 #include<assert.h>
 #include<stdlib.h>
-//¡¥’ª
+
 /////////////////////////////////////////////////////////
 typedef char ElemType;
 typedef struct LinkStackNode
@@ -78,7 +78,6 @@ void LinkStackDestroy(LinkStack *pst)
 		p = *pst;
 	}
 }
-//¿®∫≈∆•≈‰
 /////////////////////////////////////////////////////
 bool isValid(char * s){
 	if (s == NULL){
